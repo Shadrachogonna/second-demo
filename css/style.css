@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+   }
+   
+h1{ color:#777;
+ text-align:center;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  }
+
+li a {
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color:gold;
+ 
+  
+}
+li a:hover {
+			  background-color: #777;
+			  
+			}
+ /* .bg-image{ 
+			  background-image:url("bread.jpg");
+			   position:relative;
+				height:400px
+			   width:5000px
+				background-repeat:no-repeat;
+			   
+				} */
+ .text{
+				  /* position:absolute;*/
+				   top:160px;
+				   left:390px;
+				   color:gold;
+				   font-size:50px;
+				   background-image: url('bread.jpg');
+				   background-repeat: repeat;
+				   height: 200px;
+				   
+			 }
+			 h1 {
+				  text-shadow: 3px 2px;
+				}
+	 
+   input[type=text], select {
+									  
+									  width: 50%;
+									  padding: 12px 20px;
+									  margin: 8px 0;
+									  display: inline-block;
+									  border: 1px solid gold;
+									  border-radius: 10px;
+									  box-sizing: border-box;
+									  
+									}
+	   footer{
+				clear: left;
+				background-color:black;
+				color: white;
+				font-size: 23px;
+				text-align: center;
+				padding: 20px;
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				z-index: -2;
+			}											
+				
+				#bread2{
+				   
+				   position:relative;
+				   left:1000px;
+				   bottom:50px;
+				   width: 30%;
+				    height:20% ; 
+					border-radius: 50%;
+					/* max-width: 100%;
+  					height: auto; */
+				
+				}
+
+				/* #bread {
+						display: block;
+						margin-left: auto;
+						margin-right: auto;
+						width: 100%;
+						} */
